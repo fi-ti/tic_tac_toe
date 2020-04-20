@@ -26,15 +26,17 @@ for(let i = 0; i < 9; i++) {
   
   function write() {
   
+    let c;
     button[i].remove;
     td[i].textContent = playerSign;
   
     if(randomArray.length > 1) {
-      let c;  
       randomArray = randomArray.filter(function(arr) { return arr != i;});
-      c = randomArray[Math.floor(Math.random()*randomArray.length)];
-      randomArray = randomArray.filter(function(arr) { return arr != c; });
-      td[c].textContent = computerSign;
+    c = randomArray[Math.floor(Math.random()*randomArray.length)];
+    randomArray = randomArray.filter(function(arr) { return arr != c; });
+    
+    
+    td[c].textContent = computerSign;
     }
   }
 }
