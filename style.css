@@ -1,0 +1,42 @@
+.header {
+  max-width: 100%;
+  text-align: center;
+  padding: 2rem;
+  line-height: 2rem;
+}
+
+.tic_tac_toe {
+
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+table {
+    border-collapse: collapse;
+
+}
+
+.first td {
+  border-top: none;
+  border-right: none;
+
+}
+.second td {
+  border-right: none;
+}
+
+.third td {
+  border-bottom: none;
+  border-right: none;
+}
+.left {
+  border-left: none;
+}
+
+td {
+  width: 200px;
+  height: 200px;
+   border: 1px solid black;
+}
